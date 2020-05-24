@@ -1,0 +1,51 @@
+[
+  {
+      "name": "Pidgey",
+      "type": "type_flying",
+      "power": 30,
+      "ability": "Opportunist",
+      "image": "ic_pidgey_icon"
+  },
+  {
+      "name": "Venusaur",
+      "type": "type_grass",
+      "power": 60,
+      "ability": "Mega Power",
+      "image": "ic_venusaur_icon"
+  },
+  {
+      "name": "Phanpy",
+      "type": "type_ground",
+      "power": 50,
+      "ability": "Opportunist",
+      "image": "ic_phanpy_icon"
+  },
+  {
+      "name": "Marowak",
+      "type": "type_ground",
+      "power": 40,
+      "ability": "Damage Streak",
+      "image": "ic_marowak_icon"
+  },
+  {
+      "name": "Duskull",
+      "type": "type_ghost",
+      "power": 40,
+      "ability": "Block Smash",
+      "image": "ic_duskull_icon"
+  },
+  {
+      "name": "Cresselia",
+      "type": "type_psychic",
+      "power": 80,
+      "ability": "Barrier Bash+",
+      "image": "ic_cresselia_icon"
+  },
+  {
+      "name": "Absol",
+      "type": "type_dark",
+      "power": 60,
+      "ability": "Mind Zap",
+      "image": "ic_absol_icon"
+  },
+]
