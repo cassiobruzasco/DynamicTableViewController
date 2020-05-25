@@ -15,16 +15,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ic_pikachu_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="SUH-tb-bWs">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_pikachu_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="6OI-kk-ncz">
+                                <rect key="frame" x="0.0" y="384" width="414" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="WB7-hC-dKn"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="SUH-tb-bWs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="284" id="RyT-Hn-cjn"/>
-                            <constraint firstItem="SUH-tb-bWs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="Yce-Qc-lln"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SUH-tb-bWs" secondAttribute="trailing" constant="87" id="aGO-Eu-bJK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SUH-tb-bWs" secondAttribute="bottom" constant="294" id="w7o-0H-R2B"/>
+                            <constraint firstItem="6OI-kk-ncz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="4NI-tC-S8p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6OI-kk-ncz" secondAttribute="bottom" constant="350" id="Ohs-Jr-ira"/>
+                            <constraint firstItem="6OI-kk-ncz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lzd-cp-pXv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6OI-kk-ncz" secondAttribute="trailing" id="rxi-5e-9Au"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

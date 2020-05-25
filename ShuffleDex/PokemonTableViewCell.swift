@@ -21,7 +21,7 @@ class PokemonTableViewCell: UITableViewCell {
     
     func config(with pokemon: Pokemon) {
         pokemonImg.image = UIImage(named: pokemon.image)
-        pokemonName.text = "Name: \(pokemon.name)"
+        pokemonName.text = pokemon.name
         pokemonPower.text = "Power: \(String(pokemon.power))"
         pokemonAbility.text = "Abitily: \(pokemon.ability)"
         pokemonTypeImg.image = UIImage(named: pokemon.type)
